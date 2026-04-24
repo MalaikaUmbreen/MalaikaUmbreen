@@ -1,149 +1,147 @@
 <div align="center">
-<!-- Animated typing header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Malaika+Umbreen+%F0%9F%91%8B;Cybersecurity+Researcher;SOC+Analyst+%7C+AI+for+Network+Defense;Building+the+Future+of+Threat+Detection" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Malaika+Umbreen+%F0%9F%91%8B;Cybersecurity+Researcher+%F0%9F%94%90;SOC+Analyst+%7C+AI+for+Network+Defense;Transformer+%2B+Network+Steganography+%F0%9F%A7%A0;Detecting+what+firewalls+cannot+see..." alt="Typing SVG" />
 <br/>
-<!-- Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7C3AED&height=120&section=header&animation=fadeIn"/>
-`Cybersecurity Researcher` · `SOC Analyst` · `AI for Network Defense`
-Detecting what others cannot see — covert channels in network traffic
+`Cybersecurity Researcher · SOC Analyst · AI for Network Defense`
+Detecting what firewalls cannot see — covert channels hidden in plain network traffic
 <br/>
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-red?style=for-the-badge&logo=tryhackme&logoColor=white)
 ![Profile Views](https://komarev.com/ghpvc/?username=MalaikaUmbreen&style=for-the-badge&color=00d9ff&label=Profile+Views)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=header&animation=twinkling"/>
 </div>
 ---
-🔬 Featured Research — Final Year Project (Completed ✅)
+🔬 Featured Research — FYP ✅ Completed
 <div align="center">
-`A Transformer-based Detector for Network Steganography with Improved Generalization`
-Air University, Islamabad · Department of Cybersecurity
-Supervisor: Dr. Zunera Jalil
+A Transformer-based Detector for Network Steganography with Improved Generalization
+Air University, Islamabad · Dept. of Cybersecurity · Supervisor: Dr. Zunera Jalil
 </div>
-> *Network steganography is one of the most operationally dangerous anti-forensic threats in cybersecurity — hiding malicious communication inside normal DNS, ICMP, TCP, and UDP traffic, completely invisible to firewalls and IDS. This research applies a Transformer architecture to detect it with generalization existing models cannot achieve.*
-📊 Key Results
-Metric	Our Transformer	Best Baseline (LSTM)
-Mean Binary Detection Accuracy	94.42% ±3.50%	78.40% ±6.20%
-Protocol Attribution Accuracy	94.30%	—
-Technique Classification Accuracy	94.52%	—
-AUC-ROC	0.981	0.871
-False Positive Rate	0.91%	—
-Margin over LSTM	+16.02 pp	baseline
-Margin over CNN	+18.22 pp	—
-Margin over Random Forest	+24.62 pp	—
-Model Size	6.9 MB	3.4 MB
-All pairwise comparisons statistically significant — McNemar's test, p < 0.001
+> Network steganography hides malicious communication inside normal DNS, ICMP, TCP, and UDP traffic — completely invisible to firewalls and IDS. This research builds a Transformer-based detector that generalises to covert techniques it has never seen before.
+📊 Results vs Baselines
+Model	Accuracy	AUC-ROC	vs Our Model
+🏆 Our Transformer	94.42% ±3.50%	0.981	—
+LSTM	78.40% ±6.20%	0.871	−16.02 pp
+CNN	76.20% ±5.80%	0.854	−18.22 pp
+Random Forest	69.80% ±8.10%	0.802	−24.62 pp
+SVM	63.10% ±9.40%	0.743	−31.32 pp
+> FPR: **0.91%** · Protocol Attribution: **94.30%** · Technique Classification: **94.52%** · Model Size: **6.9 MB**
+> All comparisons significant — McNemar's test, p < 0.001
 🏗️ Architecture
 ```
-INPUT: 225 Flow-Level Behavioral Features per network flow
-       ↓
-Each feature treated as an independent attention TOKEN (seq. length = 225)
-       ↓
-┌─────────────────────────────────────────────────────┐
-│         TRANSFORMER ENCODER STACK (4 blocks)        │
-│  • 8-Head Self-Attention (16-dim subspaces/head)    │
-│  • Feedforward: 128 → 256 → 128 (ReLU)             │
-│  • Residual connections + Layer Normalization       │
-│  • Dropout: 0.30  |  Embedding dim: 128             │
-└─────────────────────────────────────────────────────┘
-       ↓ Global Average Pooling
-┌──────────────┬──────────────────┬──────────────────┐
-│  HEAD 1      │  HEAD 2          │  HEAD 3          │
-│  Binary      │  Technique       │  Protocol        │
-│  Detection   │  Classification  │  Attribution     │
-│  Normal vs.  │  Header Manip /  │  DNS / ICMP /    │
-│  Covert      │  Timing Obfusc / │  TCP / UDP       │
-│  (Sigmoid)   │  Flow Blending   │  (4-class)       │
-└──────────────┴──────────────────┴──────────────────┘
+INPUT → 225 flow-level features (each = 1 attention token, seq. length = 225)
+         |
+ +-------+-----------------------------------------------+
+ |       TRANSFORMER ENCODER (4 blocks)                  |
+ |  8-Head Self-Attention  .  FF: 128->256->128 (ReLU)  |
+ |  Residual Connections   .  LayerNorm  .  Dropout 0.30 |
+ +-------------------------------------------------------+
+         | Global Average Pooling
+ +---------------+-------------------+--------------------+
+ |   HEAD 1      |     HEAD 2        |     HEAD 3         |
+ | Binary Detect | Technique Classif | Protocol Attrib    |
+ | Normal/Covert | Header / Timing / | DNS/ICMP/TCP/UDP   |
+ |  (Sigmoid)    | FlowBlend (4-cls) |   (4-cls softmax)  |
+ +---------------+-------------------+--------------------+
 ```
-🧪 Feature Framework (225 Features Total)
-Category	Count	What It Detects
-Header Manipulation	107	IP TTL variance, TCP flag entropy, DNS subdomain entropy, seq. number anomalies
-Timing Obfuscation	50	Inter-arrival time patterns, IAT std deviation, timing regularity
+🧪 Feature Framework — 225 Features Total
+Category	Features	Detects
+Header Manipulation	107	IP TTL variance, TCP flag entropy, DNS subdomain entropy
+Timing Obfuscation	50	Inter-arrival time patterns, IAT std deviation
 Flow Blending	73	Bytes/sec, packet rate variance, flow duration entropy
-📋 LOTO Evaluation (Leave-One-Technique-Out)
-> The model is tested on steganographic techniques it has **never seen during training** — the most rigorous generalization test.
-Split	Technique Withheld	Binary Acc.	Protocol Acc.	FPR
+📋 LOTO Evaluation — Tested on Unseen Techniques
+Split	Withheld	Binary Acc.	Protocol Acc.	FPR
 Split 1	Timing Obfuscation	90.60%	92.84%	0.90%
 Split 2	Flow Blending	99.05%	91.15%	1.18%
 Split 3	Header Manipulation	93.60%	98.93%	0.64%
-Mean	—	94.42%	94.30%	0.91%
-🗃️ Dataset
-13,848 labeled samples — DNS, ICMP, TCP, UDP protocols
-Covert tools: dns2tcp, dnscat2, iodine, ptunnel, PingTunnel, Covert TCP, dnsexfiltrator, cobalt strike, OzymanDNS
-Behavioral training: All IPs, ports, flow IDs, timestamps stripped — model learns behavior, not infrastructure fingerprints
-Lab: Kali Linux Attacker VM + Ubuntu Victim VM (isolated) + NVIDIA Quadro M4000 GPU
-🌐 Web Application + Agentic AI Feature
+Mean	All	94.42%	94.30%	0.91%
+🗃️ Dataset — 13,848 Samples
+Protocols: DNS · ICMP · TCP · UDP
+Covert tools: dns2tcp · dnscat2 · iodine · ptunnel · PingTunnel · Covert TCP · dnsexfiltrator · cobalt strike · OzymanDNS
+Behavioral training: All IPs, ports, flow IDs, timestamps stripped — learns behavior, not fingerprints
+Lab: Kali Linux Attacker VM + Ubuntu Victim VM + NVIDIA Quadro M4000 GPU
+🌐 Web App + Agentic AI Analyst
 ```
-┌──────────────────────────────────────────────────────┐
-│           Network Steganography Detector              │
-│                  Web Application                      │
-├──────────────────────────────────────────────────────┤
-│  📤 Upload PCAP / CSV network capture                 │
-│  ⚡ Real-time Transformer inference (3.8ms/sample)    │
-│  📊 Results: Binary · Technique · Protocol output     │
-│  🗺️  Attention heatmaps for forensic interpretability │
-├──────────────────────────────────────────────────────┤
-│  🤖 AGENTIC AI ANALYST                               │
-│  • Autonomously interprets detection output           │
-│  • Generates SOC-ready incident reports               │
-│  • Recommends mitigation strategies per technique     │
-│  • Explains attention weights in analyst language     │
-└──────────────────────────────────────────────────────┘
++----------------------------------------------------------+
+|            Network Steganography Detector                |
+|                   Web Application                        |
++----------------------------------------------------------+
+|  Upload PCAP / CSV  .  3.8ms/sample inference            |
+|  Binary . Technique . Protocol output                    |
+|  Attention heatmaps for forensic interpretability        |
++----------------------------------------------------------+
+|  AGENTIC AI ANALYST (built-in)                           |
+|  . Autonomously interprets detection results             |
+|  . Generates SOC-ready incident reports                  |
+|  . Recommends mitigation per technique type              |
+|  . Explains attention weights in analyst language        |
++----------------------------------------------------------+
 ```
-📁 View Repository →
+View Repository
 ---
 🛡️ SOC Journey
 ```
-[2023] ──► CTF competitions · TryHackMe labs · Network fundamentals & protocols
-[2024] ──► SOC Home Lab built · Wazuh SIEM deployed · SSH brute-force simulation & detection
-[2024] ──► FYP research begins · Transformer-based Network Steganography detector proposed
-[2025] ──► Model trained · 94.42% LOTO accuracy · Outperforms LSTM by 16pp
-[2025] ──► Web app + Agentic AI analyst built · Research paper completed
-[Now]  ──► Seeking SOC Analyst / Security Researcher roles 🎯
+[2023] --> CTF competitions . TryHackMe . Network fundamentals & protocols
+[2024] --> SOC Home Lab . Wazuh SIEM . SSH brute-force detection
+[2024] --> FYP begins . Transformer detector for Network Steganography proposed
+[2025] --> 13,848-sample dataset . LOTO 94.42% . Outperforms LSTM by 16pp
+[2025] --> Web app + Agentic AI analyst built . Research paper completed
+[Now]  --> Open to SOC Analyst / Security Research roles
 ```
-Key hands-on labs:
-SOC-Lab-BruteForce-SSH — SSH brute force simulation, detected via Wazuh SIEM, incident report written
-SOC-Network-Attacks-Lab — Nmap scanning, SMB enumeration, network attack detection
-Network-Steganography — FYP: Transformer-based covert channel detector (completed)
-Extensive-EDA — Data analysis & visualization pipeline (Spaceship Titanic dataset)
+Labs & Projects:
+SOC-Lab-BruteForce-SSH — SSH brute force simulation · Wazuh SIEM detection · Incident report
+SOC-Network-Attacks-Lab — Nmap · SMB enumeration · Network attack detection
+Network-Steganography — FYP: Transformer covert channel detector (completed)
+Extensive-EDA — Data analysis & ML pipeline
 ---
-🧰 Arsenal
+🧰 Tech Stack & Tools
 Security & SOC
-![Nmap](https://img.shields.io/badge/Nmap-Scanning-4EAA25?style=flat-square&logo=gnu&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-Forensics-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-005571?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-Exploitation-E34234?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Web%20Testing-FF6633?style=flat-square)
-![Scapy](https://img.shields.io/badge/Scapy-Packet%20Crafting-009688?style=flat-square)
-AI / ML for Security
-![PyTorch](https://img.shields.io/badge/PyTorch-Transformers-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Research-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data-150458?style=flat-square&logo=pandas&logoColor=white)
-Languages & Tools
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<p align="left">
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nmap-4EAA25?style=for-the-badge&logo=gnu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Metasploit-E34234?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Wazuh_SIEM-005571?style=for-the-badge&logoColor=white"/>
+</p>
+AI / ML & Research
+<p align="left">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scapy-009688?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
+Languages & Dev Tools
+<p align="left">
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
 ---
 📊 GitHub Stats
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=MalaikaUmbreen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalaikaUmbreen&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF" height="165"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MalaikaUmbreen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalaikaUmbreen&layout=compact&theme=tokyonight&hide_border=true"/>
 <br/>
-<img src="https://streak-stats.demolab.com?user=MalaikaUmbreen&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF"/>
+<img width="70%" src="https://streak-stats.demolab.com?user=MalaikaUmbreen&theme=tokyonight&hide_border=true"/>
 <br/>
-<img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=tokyonight&no-frame=true&column=6&margin-w=6&bg_color=0D1117"/>
+<img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=tokyonight&no-frame=true&column=6&margin-w=8"/>
 </div>
 ---
 🤝 Let's Connect
-Actively looking for SOC Analyst, Security Researcher, or Junior Penetration Tester roles.
-Working on network security, AI-driven threat detection, or covert channel research? Let's connect.
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Malaika%20Umbreen-0A66C2?style=for-the-badge&logo=linkedin)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Malaika.Umbreen-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
+> Open to **SOC Analyst · Security Researcher · Junior Penetration Tester** roles.
+> Researching network security, AI-driven threat detection, or covert channels? Reach out.
+<p align="left">
+<a href="https://linkedin.com/in/malaika-umbreen"><img src="https://img.shields.io/badge/LinkedIn-Malaika_Umbreen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://tryhackme.com/p/Malaika.Umbreen"><img src="https://img.shields.io/badge/TryHackMe-Malaika.Umbreen-212C42?style=for-the-badge&logo=tryhackme&logoColor=red"/></a>
+</p>
 ---
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:00D9FF,100:0D1117&height=100&section=footer&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer&animation=twinkling"/>
 "Security is not a product, but a process." — Bruce Schneier
 </div>
