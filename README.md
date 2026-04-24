@@ -16,13 +16,11 @@
 
 ---
 
-## 🔬 Featured Research — FYP ✅ Completed
+##                                     🔬 Featured Research - FYP Completed
 
 <div align="center">
 
-**A Transformer-based Detector for Network Steganography with Improved Generalization**  
-Air University, Islamabad · Department of Cybersecurity  
-Supervisor: Dr. Zunera Jalil
+**A Transformer-based Detector for Network Steganography with Improved Generalization on unseen Covert Channels**  
 
 </div>
 
@@ -31,7 +29,7 @@ Supervisor: Dr. Zunera Jalil
 
 ---
 
-## 📊 Results vs Baselines
+##  Results vs Baselines
 
 | Model | Accuracy | AUC-ROC | Gap |
 |------|---------|--------|-----|
@@ -104,12 +102,12 @@ All comparisons statistically significant — McNemar's test, p < 0.001
 
 | Year | Milestone |
 |-----|----------|
-| 2023 | CTF + TryHackMe |
-| 2024 | SOC Lab + Wazuh |
-| 2024 | FYP Started |
+| 2025 | CTF + TryHackMe |
+| 2025 | SOC Lab + Wazuh |
+| 2025 | FYP Started |
 | 2025 | 94.42% Accuracy |
-| 2025 | AI Analyst Built |
-| Now | Open to Roles 🎯 |
+| 2026 | AI Analyst Built |
+| Now | Open to Roles  |
 
 ---
 
@@ -125,7 +123,7 @@ All comparisons statistically significant — McNemar's test, p < 0.001
 <img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge"/>
 </p>
 
-### 🤖 AI / ML
+###                AI / ML
 <p>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge"/>
@@ -135,7 +133,7 @@ All comparisons statistically significant — McNemar's test, p < 0.001
 
 ---
 
-## 📊 GitHub Stats
+##               GitHub Stats
 
 <div align="center">
 
