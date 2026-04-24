@@ -20,10 +20,8 @@
 ## 👩‍💻 About Me
 
 - 🎓 **BS Information Technology** — University of Chakwal · CGPA: 3.57/4.0 · Graduating May 2026
-- 🔐 **SOC Intern** @ Cyberfix · **ML Intern** @ Arch Technologies · **Research Assistant** @ CyberFix
 - 🧠 Building AI-powered tools that detect threats traditional security tools miss entirely
 - 📄 **Research paper under review** — Transformer-based Network Steganography Detection
-- 🌍 Based in Pakistan · Open to remote & on-site security roles
 
 ---
 
