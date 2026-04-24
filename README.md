@@ -9,6 +9,7 @@
 <br/>
 
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+www.linkedin.com/in/malaika-umbreen
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-red?style=for-the-badge&logo=tryhackme&logoColor=white)
 ![Views](https://komarev.com/ghpvc/?username=MalaikaUmbreen&style=for-the-badge&color=00d9ff&label=Profile+Views)
 
