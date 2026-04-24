@@ -75,11 +75,11 @@
 
 | Year | Milestone |
 |------|-----------|
-| 2023 | CTF competitions · TryHackMe labs · Network fundamentals |
-| 2024 | Home SOC Lab built · Wazuh SIEM · Penetration testing course |
-| 2024 | FYP begins — Transformer detector for Network Steganography |
-| 2025 | SOC Internship · ML Internship · Research Assistant role |
-| 2025 | Research paper written · Web app + Agentic AI analyst built |
+| 2025 | CTF competitions · TryHackMe labs · Network fundamentals |
+| 2025 | Home SOC Lab built · Wazuh SIEM · Penetration testing course |
+| 2025 | FYP begins — Transformer detector for Network Steganography |
+| 2026 | SOC Internship · ML Internship · Research Assistant role |
+| 2026 | Research paper written · Web app + Agentic AI analyst built |
 | 2026 | **NSCT Top 10% nationally · Paper under review · Graduating May 2026** |
 
 ---
@@ -163,7 +163,6 @@ Researching network security, AI-driven threat detection, or covert channels? Re
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Malaika_Umbreen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/malaika-umbreen)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Malaika.Umbreen-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Malaika.Umbreen)
-[![Email](https://img.shields.io/badge/Email-malaikaumbreen04@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malaikaumbreen04@gmail.com)
 
 ---
 
