@@ -140,7 +140,14 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=tokyonight&no-frame=true&column=6&margin-w=8"/>
 
-<img src="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake-dark.svg" alt="Snake animation" />
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake.svg" />
+</picture>
+
 </div>
 
 ---
