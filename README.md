@@ -19,8 +19,8 @@
 
 ## 👩‍💻 About Me
 
-- 🧠 Building AI-powered tools that detect threats traditional security tools miss entirely
-- 📄 **Research paper under review** — Transformer-based Network Steganography Detection
+- Building AI-powered tools that detect threats traditional security tools miss entirely
+- 📄**Research paper under review** — Transformer-based Network Steganography Detection
 
 ---
 
@@ -40,14 +40,14 @@
 
 ---
 
-## 🏆 Achievements
+##  Achievements
 
 | Award | Details |
 |-------|---------|
-| 🥇 **National Skill Competency Test — Top 10% Nationally** | HEC & Ministry of IT Pakistan · Apr 2026 · Scored **89.7 Percentile** nationwide · Full marks in Cybersecurity |
-| 🎓 **Microsoft Azure AI Fundamentals** | Microsoft Certified · Dec 2024 · Credential: 46EEB1A356EB43A5 |
-| 🤖 **AI & Machine Learning Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
-| 🔓 **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
+|🥇**National Skill Competency Test — Top 10% Nationally** | HEC & Ministry of IT Pakistan · Apr 2026 · Scored **89.7 Percentile** nationwide · Full marks in Cybersecurity |
+|  **Microsoft Azure AI Fundamentals** | Microsoft Certified · Dec 2024 · Credential: 46EEB1A356EB43A5 |
+|  **AI & Machine Learning Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
+|  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
 ---
 
@@ -85,11 +85,11 @@
 
 ## 💼 Key Projects
 
-- 🧠 **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP — Completed)*
-- 🔐 **[SOC-Lab-BruteForce-SSH](https://github.com/MalaikaUmbreen/SOC-Lab-BruteForce-SSH)** — SSH brute force simulation · Wazuh SIEM detection · Incident report
-- 🌐 **[SOC-Network-Attacks-Lab](https://github.com/MalaikaUmbreen/SOC-Network-Attacks-Lab)** — Nmap · SMB enumeration · Network attack detection
-- 📊 **[Extensive-EDA](https://github.com/MalaikaUmbreen/Extensive-EDA)** — Data analysis & ML visualization pipeline
-- 🏢 **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
+-  **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP — Completed)*
+-  **[SOC-Lab-BruteForce-SSH](https://github.com/MalaikaUmbreen/SOC-Lab-BruteForce-SSH)** — SSH brute force simulation · Wazuh SIEM detection · Incident report
+-  **[SOC-Network-Attacks-Lab](https://github.com/MalaikaUmbreen/SOC-Network-Attacks-Lab)** — Nmap · SMB enumeration · Network attack detection
+-  **[Extensive-EDA](https://github.com/MalaikaUmbreen/Extensive-EDA)** — Data analysis & ML visualization pipeline
+-  **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
 
 ---
 ## 🧰 Tools & Technologies
@@ -133,10 +133,6 @@
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=nord&no-frame=true&column=4&margin-w=10"/>
-
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake.svg" />
@@ -148,7 +144,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MalaikaUmbreen&theme=tokyo-night&hide_border=true" />
 
 </div>
-
 ---
 
 ## 🤝 Let's Connect
