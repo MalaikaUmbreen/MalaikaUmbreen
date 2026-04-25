@@ -28,8 +28,6 @@
 
 **A Transformer-Based Detector for Network Steganography with Improved Generalization**
 
-> *Air University, Islamabad · Supervisor: Dr. Zunera Jalil*
-
 **The Problem:** Attackers hide malicious data inside normal DNS, ICMP, TCP, and UDP network traffic — a technique called Network Steganography. It is completely invisible to firewalls, IDS, and traditional deep learning detectors like CNN and LSTM, which collapse when exposed to techniques they haven't been trained on.
 
 **Our Solution:** A Transformer-based detector that learns *behavioral patterns* in network flows rather than memorising tool signatures — enabling it to detect covert channels it has **never seen before**, with **94.42% accuracy** under rigorous Leave-One-Technique-Out (LOTO) evaluation.
@@ -161,7 +159,6 @@ Researching network security, AI-driven threat detection, or covert channels? Re
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Malaika_Umbreen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/malaika-umbreen)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Malaika.Umbreen-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Malaika.Umbreen)
-[![Email](https://img.shields.io/badge/Email-malaikaumbreen04@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malaikaumbreen04@gmail.com)
 
 ---
 
