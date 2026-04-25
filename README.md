@@ -57,7 +57,9 @@
 |  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
 <img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
+
 <br clear="right"/>
+
 ---
 
 ## 📈 Current Learning & Progress
