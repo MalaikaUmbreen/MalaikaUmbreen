@@ -145,6 +145,10 @@
   <img alt="Snake animation" src="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake.svg" />
 </picture>
 
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MalaikaUmbreen&theme=tokyo-night&hide_border=true" />
+
 </div>
 
 ---
