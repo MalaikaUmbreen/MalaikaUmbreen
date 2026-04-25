@@ -27,7 +27,7 @@
 - 📄**Research paper under review** — Transformer-based Network Steganography Detection
 
 ---
-## 🔬 Research — Under Review for Publication
+## 🔬 Research Paper - Under Review for Publication
 
 <img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
