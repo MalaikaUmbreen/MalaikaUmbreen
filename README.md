@@ -49,6 +49,9 @@
 
 ##  Achievements
 
+<img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
+
+
 | Award | Details |
 |-------|---------|
 |🥇**National Skill Competency Test — Top 10% Nationally** | HEC & Ministry of IT Pakistan · Apr 2026 · Scored **89.7 Percentile** nationwide · Full marks in Cybersecurity |
@@ -56,11 +59,10 @@
 |  **AI & Machine Learning Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
 |  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
-<img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
-
 <br clear="right"/>
 
 ---
+
 
 ## 📈 Current Learning & Progress
 
