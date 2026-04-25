@@ -74,11 +74,11 @@
 
 | Year | Milestone |
 |------|-----------|
-| 2023 | CTF competitions · TryHackMe labs · Network fundamentals |
-| 2024 | Home SOC Lab built · Wazuh SIEM · Penetration testing course |
-| 2024 | FYP begins — Transformer detector for Network Steganography |
-| 2025 | SOC Internship · ML Internship · Research Assistant role |
-| 2025 | Research paper written · Web app + Agentic AI analyst built |
+| 2025 | CTF competitions · TryHackMe labs · Network fundamentals |
+| 2025 | Home SOC Lab built · Wazuh SIEM · Penetration testing course |
+| 2025 | FYP begins — Transformer detector for Network Steganography |
+| 2026 | SOC Internship · ML Internship · Research Assistant role |
+| 2026 | Research paper written · Web app + Agentic AI analyst built |
 | 2026 | **NSCT Top 10% nationally · Paper under review · Graduating May 2026** |
 
 ---
@@ -133,7 +133,7 @@
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=tokyonight&no-frame=true&column=6&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=nord&no-frame=true&column=4&margin-w=10"/>
 
 <br/><br/>
 
