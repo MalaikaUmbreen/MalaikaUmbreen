@@ -101,7 +101,6 @@
 ## 🧰 Tools & Technologies
 
 **Security & SOC**
-
 <div align="center">
 <!-- Row 1: Security Tools -->
 <img src="https://skillicons.dev/icons?i=linux,kali,python,pytorch,tensorflow\&theme=dark" />
@@ -127,6 +126,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Scapy](https://img.shields.io/badge/Scapy-009688?style=flat-square&logoColor=white)
 </div>
+
 
 ---
 
