@@ -140,6 +140,7 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=MalaikaUmbreen&theme=tokyonight&no-frame=true&column=6&margin-w=8"/>
 
+<img src="https://raw.githubusercontent.com/MalaikaUmbreen/MalaikaUmbreen/output/github-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
