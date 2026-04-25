@@ -57,7 +57,7 @@
 |  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
 <img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
-
+<br clear="right"/>
 ---
 
 ## 📈 Current Learning & Progress
@@ -79,6 +79,7 @@
 
 <img align="right" width="280" src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"/>
 
+<br clear="right"/>
 ---
 
 ## 🛡️ SOC Journey
@@ -92,10 +93,12 @@
 | 2026 | Research paper written · Web app + Agentic AI analyst built |
 | 2026 | **NSCT Top 10% nationally · Paper under review · Graduating May 2026** |
 
-<img align="right" width="280" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"/>
+
 ---
 
 ## 💼 Key Projects
+
+img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 -  **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP — Completed)*
 -  **[SOC-Lab-BruteForce-SSH](https://github.com/MalaikaUmbreen/SOC-Lab-BruteForce-SSH)** — SSH brute force simulation · Wazuh SIEM detection · Incident report
@@ -103,6 +106,7 @@
 -  **[Extensive-EDA](https://github.com/MalaikaUmbreen/Extensive-EDA)** — Data analysis & ML visualization pipeline
 -  **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
 
+<br clear="right"/>
 ---
 ## 🧰 Tools & Technologies
 
