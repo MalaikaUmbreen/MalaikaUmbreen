@@ -47,19 +47,27 @@
 
 ---
 
-##  Achievements
 
-<img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
+## 🏆 Achievements
 
+<table>
+<tr>
+<td>
 
 | Award | Details |
 |-------|---------|
-|🥇**National Skill Competency Test — Top 10% Nationally** | HEC & Ministry of IT Pakistan · Apr 2026 · Scored **89.7 Percentile** nationwide · Full marks in Cybersecurity |
-|  **Microsoft Azure AI Fundamentals** | Microsoft Certified · Dec 2024 · Credential: 46EEB1A356EB43A5 |
-|  **AI & Machine Learning Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
-|  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
+| 🥇 **NSCT — Top 10% Nationally** | HEC & Ministry of IT · Apr 2026 · **89.7 Percentile** · Full marks in Cybersecurity |
+| 🎓 **Microsoft Azure AI Fundamentals** | Microsoft Certified · Dec 2024 · Credential: 46EEB1A356EB43A5 |
+| 🤖 **AI & ML Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
+| 🔓 **Penetration Testing Course** | 3-Month · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
-<br clear="right"/>
+</td>
+<td>
+<img width="250" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
+</td>
+</tr>
+</table>
+
 
 ---
 
