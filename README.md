@@ -97,36 +97,31 @@
 - 🏢 **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
 
 ---
-
 ## 🧰 Tools & Technologies
 
-**Security & SOC**
 <div align="center">
-<!-- Row 1: Security Tools -->
-<img src="https://skillicons.dev/icons?i=linux,kali,python,pytorch,tensorflow\&theme=dark" />
-<br/>
-<!-- Row 2: Dev Tools -->
-<img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,html\&theme=dark" />
-<br/>
-<!-- Row 3: Languages -->
-<img src="https://skillicons.dev/icons?i=c,js,php,jupyter,vim\&theme=dark" />
-</div>
-<br/>
-<div align="center">
-<!-- Security-specific tools as badges since skillicons doesn't have them -->
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-E34234?style=flat-square&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4EAA25?style=flat-square&logo=gnu&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh_SIEM-005571?style=flat-square&logoColor=white)
-![OpenVAS](https://img.shields.io/badge/OpenVAS-2ECC71?style=flat-square&logoColor=white)
-![Nessus](https://img.shields.io/badge/Nessus-00C176?style=flat-square&logoColor=white)
-![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat-square&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-009688?style=flat-square&logoColor=white)
-</div>
 
+<img src="https://skillicons.dev/icons?i=linux,kali,python,pytorch,tensorflow&theme=dark" />
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,html&theme=dark" />
+<br/>
+<img src="https://skillicons.dev/icons?i=c,js,php,jupyter,vim&theme=dark" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Metasploit-E34234?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nmap-4EAA25?style=flat-square&logo=gnu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Wazuh_SIEM-005571?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenVAS-2ECC71?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nessus-00C176?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/pfSense-212121?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scapy-009688?style=flat-square&logoColor=white"/>
+
+</div>
 
 ---
 
