@@ -56,6 +56,8 @@
 |  **AI & Machine Learning Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
 |  **Penetration Testing Course** | 3-Month program · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
 
+<img align="right" width="280" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"/>
+
 ---
 
 ## 📈 Current Learning & Progress
@@ -75,6 +77,8 @@
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC_L1_In_Progress-red?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Malaika.Umbreen)
 
+<img align="right" width="280" src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"/>
+
 ---
 
 ## 🛡️ SOC Journey
@@ -88,6 +92,7 @@
 | 2026 | Research paper written · Web app + Agentic AI analyst built |
 | 2026 | **NSCT Top 10% nationally · Paper under review · Graduating May 2026** |
 
+<img align="right" width="280" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"/>
 ---
 
 ## 💼 Key Projects
