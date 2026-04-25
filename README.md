@@ -77,9 +77,6 @@
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC_L1_In_Progress-red?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Malaika.Umbreen)
 
-<img align="right" width="280" src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"/>
-
-<br clear="right"/>
 ---
 
 ## 🛡️ SOC Journey
