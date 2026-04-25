@@ -144,7 +144,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MalaikaUmbreen&theme=tokyo-night&hide_border=true" />
 
 </div>
----
 
 ## 🤝 Let's Connect
 
