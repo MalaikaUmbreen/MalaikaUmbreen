@@ -17,12 +17,23 @@
 
 ---
 
+
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=6,11,20&height=150&section=header&text=Malaika%20Umbreen&fontSize=50&animation=fadeIn&fontColor=00D9FF"/>
+
+
 ## 👩‍💻 A Bit more about me
 
 - Building AI-powered tools that detect threats traditional security tools miss entirely
 - 📄**Research paper under review** — Transformer-based Network Steganography Detection
+
+
   
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+
+
+
+
+
 ---
 
 ## 🔬 Research — Under Review for Publication
@@ -42,8 +53,6 @@
 ---
 
 ##  Achievements
-
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=6,11,20&height=150&section=header&text=Malaika%20Umbreen&fontSize=50&animation=fadeIn&fontColor=00D9FF"/>
 
 | Award | Details |
 |-------|---------|
