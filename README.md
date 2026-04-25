@@ -97,7 +97,7 @@
 
 ## 💼 Key Projects
 
-img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 -  **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP — Completed)*
 -  **[SOC-Lab-BruteForce-SSH](https://github.com/MalaikaUmbreen/SOC-Lab-BruteForce-SSH)** — SSH brute force simulation · Wazuh SIEM detection · Incident report
@@ -106,7 +106,10 @@ img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687
 -  **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
 
 <br clear="right"/>
+
 ---
+
+
 ## 🧰 Tools & Technologies
 
 <div align="center">
