@@ -26,17 +26,10 @@
 - Building AI-powered tools that detect threats traditional security tools miss entirely
 - 📄**Research paper under review** — Transformer-based Network Steganography Detection
 
-
-  
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
-
-
-
-
-
 ---
-
 ## 🔬 Research — Under Review for Publication
+
+<img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 **A Transformer-Based Detector for Network Steganography with Improved Generalization**
 
@@ -49,6 +42,8 @@
 > 📄 *Manuscript under review for journal/conference publication, 2026*
 
 **[View Repository →](https://github.com/MalaikaUmbreen/Network-Steganography)**
+
+<br clear="right"/>
 
 ---
 
