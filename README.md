@@ -59,7 +59,7 @@
 | 🥇 **NSCT — Top 10% Nationally** | HEC & Ministry of IT · Apr 2026 · **89.7 Percentile** · Full marks in Cybersecurity |
 | 🎓 **Microsoft Azure AI Fundamentals** | Microsoft Certified · Dec 2024 · Credential: 46EEB1A356EB43A5 |
 | 🤖 **AI & ML Certification** | NAVTTC — Government of Pakistan · Dec 2024 |
-| 🔓 **Penetration Testing Course** | 3-Month · OpenVAS · Nessus · Maltego · Flare VM · REMnux |
+
 
 </td>
 <td valign="middle" width="20%" align="center">
@@ -111,12 +111,14 @@
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
--  **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP — Completed)*
+-  **[Network-Steganography](https://github.com/MalaikaUmbreen/Network-Steganography)** — Transformer-based covert channel detector + Web App + Agentic AI Analyst *(FYP)*
+-  **[Home-SOC-lab](https://github.com/MalaikaUmbreen/Home-SOC-Lab_)** — Full deployment documentation for a self-hosted SIEM using Wazuh, Sysmon, and open-source security tools.
+-  **[Open-Claw-Deployment](https://github.com/MalaikaUmbreen/OPEN-CLAW-Deployment_)** — AI-powered SOC automation — OpenClaw AI agent orchestration.
 -  **[SOC-Lab-BruteForce-SSH](https://github.com/MalaikaUmbreen/SOC-Lab-BruteForce-SSH)** — SSH brute force simulation · Wazuh SIEM detection · Incident report
 -  **[SOC-Network-Attacks-Lab](https://github.com/MalaikaUmbreen/SOC-Network-Attacks-Lab)** — Nmap · SMB enumeration · Network attack detection
 -  **[Extensive-EDA](https://github.com/MalaikaUmbreen/Extensive-EDA)** — Data analysis & ML visualization pipeline
 -  **[Employee-Management](https://github.com/MalaikaUmbreen/Employee-Management_)** — Full-stack web system · PHP · MySQL · HTML/CSS
-
+  
 <br clear="right"/>
 
 ---
